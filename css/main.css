@@ -1,0 +1,46 @@
+html {
+    background: url('../img/bg-drum.jpg') no-repeat center;
+}
+html, body, main, .controls {
+    height: 100%;
+    margin: 0;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.key {
+    border: 2px solid black;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+}
+.key-active {
+    border: 2px solid yellow;
+    width: 52px;
+    height: 52px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.key p {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+.key span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    margin: 0;
+    color: yellow;
+    text-transform: uppercase;
+}
+.key audio {
+    display: none;
+}
